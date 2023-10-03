@@ -2,7 +2,7 @@
 
 using namespace std;
 
-void PrintArray(int arr[], int s ){ // no need to give size of array here
+void PrintArray(int arr[], int s ){ // no need to give size of array here and arr = address of arr[0]
     // int s = sizeof(arr)/sizeof(int);
     for(int i = 0; i<s; i++){
         cout<<arr[i]<<" ";
